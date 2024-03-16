@@ -1,4 +1,4 @@
-console.log("Hi Harry"); // Used to print a value on screen
+console.log("Hi Harry"); // Used to print something on screen
 
 // Using Variables
 // Method-1
