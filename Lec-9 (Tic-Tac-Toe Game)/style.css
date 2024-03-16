@@ -1,0 +1,48 @@
+.bodyLight{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+.bodyDark{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#game{
+    height: 60vmin;
+    width: 60vmin;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;    
+}
+.boxLight{
+    font-size: 10vmin;
+    height: 18vh;
+    width: 18vh;
+    border-radius: 2vmin;
+    box-shadow: 0.25rem .25rem .25rem black
+}
+#resetBtn{
+    padding: 5px;
+    border-radius: 1vmin;
+}
+#modeBtn{
+    padding: 5px;
+    border-radius: 1vmin;
+}
+.boxDark{
+    font-size: 10vmin;
+    height: 18vh;
+    width: 18vh;
+    border-radius: 2vmin;
+    box-shadow: 0.25rem .25rem .25rem white
+}

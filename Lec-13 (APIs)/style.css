@@ -1,0 +1,13 @@
+#btn{
+    font-size: 20px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: .5rem;
+    border-color: blue;
+    padding: 10px;
+}
+#fact{
+    color: brown;
+    font-weight: bold;
+    font-size: 18px;
+}

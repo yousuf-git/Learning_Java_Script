@@ -1,0 +1,28 @@
+/* Styling the component by header or node type */
+h1 {
+  color: blueviolet;
+}
+/* Styling the component by id */
+#wlc {
+  color: white;
+  font: Agency FB;
+}
+/* Styling the component by class */
+.paragraph {
+  color: antiquewhite;
+  font: Arial;
+  font-style: italic;
+}
+#heroesList{
+  font-style: italic;
+}
+.box{
+  height: 150px;
+  width: 150px;
+  border: 3px solid black;
+  margin: 40px;
+  text-align: center;
+  background-color: aquamarine;
+  margin-top: 20px;
+
+}
