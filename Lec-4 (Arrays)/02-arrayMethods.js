@@ -75,7 +75,20 @@ console.log("Updated Companies: ", comapnies)
 comapnies.push("Disney")
 console.log("Updated Companies: ", comapnies)
 
+// 9. reduce(callback, initialValue) --> returns a single value after performing the operation on all elements of array
+// Syntax:
+// reduce(callbackFn)
+// reduce(callbackFn, initialValue)
 
+// Example 1: Sum of all elements of array
+let numbers = [1, 2, 3, 4, 5]
+let sum = numbers.reduce((total, num) => total + num, 0) // 0 is the initial value of total
+console.log("Sum of numbers: ", sum)    // 15
 
+// Example 2: Find the maximum number from array
+let max = numbers.reduce((maxNum, num) => Math.max(maxNum, num), 0)
+console.log("Max Number: ", max)        // 5
+
+// Reference from MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
 
 
